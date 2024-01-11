@@ -1,0 +1,21 @@
+.air-condition-container {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.air-condition-container h3 {
+  color: #333;
+}
+
+.air-condition-info {
+  margin-top: 10px;
+}
+
+.air-condition-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}

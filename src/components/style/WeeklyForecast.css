@@ -1,0 +1,35 @@
+.weekly-forecast-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.weekly-forecast-container h3 {
+  color: #333;
+}
+
+.weekly-forecast-info {
+  margin-top: 10px;
+  display: flex;
+  overflow: auto;
+}
+
+.daily-item {
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.daily-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
