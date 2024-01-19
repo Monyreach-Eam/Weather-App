@@ -1,22 +1,33 @@
 .today-weather {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
+}
+
+.paper-container {
+  margin-top: 20px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  background-color: #fff;
 }
 
 .weather-info {
-  margin-top: 20px;
-}
-
-.today-weather h2 {
-  font-size: 24px;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
-.today-weather p {
-  font-size: 16px;
-  margin-bottom: 5px;
+.weather-image {
+  max-width: 50%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.loading-text,
+.error-text {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.search-bar {
+  margin-bottom: 20px;
 }

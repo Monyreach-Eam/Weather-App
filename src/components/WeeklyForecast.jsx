@@ -1,22 +1,27 @@
 import React from "react";
+import { Typography, Paper } from "@mui/material";
 import "./style/WeeklyForecast.css";
 
 const WeeklyForecast = ({ weeklyData }) => {
   return (
-    <div className="weekly-forecast-container">
-      <h3>Weekly Forecast</h3>
+    <Paper
+      elevation={3}
+      className="weekly-forecast-container"
+      style={{ padding: 16 }}
+    >
+      <Typography variant="h6">Weekly Forecast</Typography>
       {weeklyData && weeklyData.length > 0 && (
         <div className="weekly-forecast-info">
           {weeklyData.map((day, index) => (
             <div key={index} className="daily-item">
-              <p>{day.day}</p>
-              <p>Temperature: {day.temp}°C</p>
-              <p>Weather: {day.weather}</p>
+              <Typography variant="body1">{day.day}</Typography>
+              <Typography variant="body1">Temperature: {day.temp}°C</Typography>
+              <Typography variant="body1">Weather: {day.weather}</Typography>
             </div>
           ))}
         </div>
       )}
-    </div>
+    </Paper>
   );
 };
 
